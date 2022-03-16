@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="geckyn"
+		fetch="https://github.com/geckyn"
+		revision="lineage-17.1-64" />
+
+	<project path="device/samsung/j6primelte" name="android_device_samsung_j6primelte" remote="geckyn" />
+	<project path="device/samsung/msm8917-common" name="android_device_samsung_msm8917-common" remote="geckyn" />
+	<project path="kernel/samsung/msm8917" name="android_kernel_samsung_msm8917_64" remote="geckyn" />
+	<project path="vendor/samsung" name="proprietary_vendor_j4primelte" remote="geckyn" />
+</manifest>
